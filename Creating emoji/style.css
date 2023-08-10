@@ -1,0 +1,110 @@
+  @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Luxurious+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Luxurious+Script&display=swap');
+h1{
+    font-family: 'Luxurious Roman', cursive;
+font-family: 'Luxurious Script', cursive;
+text-align: center;
+}
+p{
+    font-family: 'Luxurious Roman', cursive;
+font-family: 'Luxurious Script', cursive;
+}
+body{
+    background: lightgoldenrodyellow;
+}
+.emoji-face{
+    background: goldenrod ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0, 0, 0,0.07);
+    position: relative;
+}
+
+.eye1{
+    background-color: white;
+    height: 15px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.eye2{
+    background-color: white;
+    height: 15px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 66px;
+}
+
+.mouth{
+    background:#bd4d4d ;
+    height: 34px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+}
+.tongue{
+    background-color: pink;
+    width: 38px;
+    height: 38px;
+    border-radius: 40%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 2;
+}
+.mouth-shock{
+    background-color: #bd4d4d;
+    width: 23px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.mouth-speechless{
+    background-color: #805426;
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    top: 60px;
+    left: 16px;   
+}
+.emoji-face{
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+/*fixing the emoji*/
+.wrapper{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+#heading{
+    text-align: center;
+    font-size: 4em;
+}
+h1{
+    font-size: 2em;
+}
+p{
+    font-size: 1.5em;
+}
+.emoji-face:hover{
+    background: rgb(238,165,143);
+    transform: scale(1.25);
+}
+.write-up{
+    background-color: #d8aa2b;
+    padding: 5% 10%;
+    text-align: center;
+    border-radius: 20px;
+}
